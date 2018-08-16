@@ -1,0 +1,16 @@
+<html>
+<body>
+<title>Adivina la palabra</title>
+<h1>Adivina la palabra!</h1>
+<br>
+<br>
+<select>
+  <option value="frutas">Frutas</option>
+</select> 
+<form method=post action="validar">
+Letra: <input type="text" id="letra" name="letra">
+<input type="submit" name="ingresar" value="ingresarletra">
+</form>
+<p id="letraingresada">Letra ingresada: <%@letra%></p>
+</body>
+</html>
