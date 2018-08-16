@@ -18,3 +18,6 @@ Then Veo Resultado "La letra esta en la palabra"
 When Como la letra "b" no esta en Manzana
 Then Veo en intentos "6"
 
+When Como la letra "n" esta em Manzana
+Then Veo palabra "XXnXXnX"
+
