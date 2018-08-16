@@ -16,8 +16,8 @@ end
 
 When(/^Ingreso una letra "(.*?)"$/) do |arg1|
   visit '/'
-  fill_in(letra, :with => arg1)
-  click_button(ingresar)	
+  fill_in("letra", :with => arg1)
+  click_button("ingresar")	
 end
 
 Then(/^Veo "(.*?)"$/) do |l|
